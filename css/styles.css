@@ -1,0 +1,28 @@
+#movie-carousel-section{
+    min-height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#moviesDisplayCarousel .carousel-item {
+  height: 500px; 
+}
+
+#moviesDisplayCarousel .carousel-image-one{
+    background: url("/img/antman-wasp-poster.jpg");;
+    background-size: cover;
+    
+}
+
+#moviesDisplayCarousel .carousel-image-two{
+    background: url("../img/infinity-war-poster.jpg");
+    background-size: cover;
+    
+}
+
+#moviesDisplayCarousel .carousel-image-three{
+    background: url("../img/incredibles-2-poster.jpg");
+    background-size: cover;
+    
+}

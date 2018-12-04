@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!--CSS Custom Stylesheet-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Bootstrap Theme</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Vidly</a>
+            <!-- Navbar toggler -->
+            <div class="navbar-toggler" data-target="#vidlyNavbar" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </div>
+
+            <div class="navbar-collapse collapse" id="vidlyNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Movies</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="movie-carousel-section">
+        <div class="movie-carousel-inner">
+            <div class="carousel slide" data-ride="carousel" id="moviesDisplayCarousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#moviesDisplayCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#moviesDisplayCarousel" data-slide-to="1"></li>
+                    <li data-target="#moviesDisplayCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner text-dark">
+                    <div class="carousel-item carousel-image-one active">
+                        <div class="carousel-caption text-left">
+                            <h3 class="display-4">Ant-Man And The Wasp</h3>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nam eius, autem corrupti architecto neque fuga aut fugiat ipsum molestiae.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-image-two">
+                        <div class="carousel-caption text-left">
+                            <h3 class="display-4">Avengers: Infinity War</h3>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nam eius, autem corrupti architecto neque
+                                fuga aut fugiat ipsum molestiae.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-image-three">
+                        <div class="carousel-caption text-left">
+                            <h3 class="display-4">Incredibles 2</h3>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nam eius, autem corrupti architecto neque
+                                fuga aut fugiat ipsum molestiae.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!--Arrows-->
+                <a href="#moviesDisplayCarousel" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#moviesDisplayCarousel" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="new-releases-section mb-3">
+        <div class="container new-releases-inner">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-5 border-bottom py-2 my-3">
+                        New Releases
+                    </h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex">
+                        <div class="card">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Scripts-->
+    <!--Bootstrap and JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--Custom Script-->
+    <script>
+        //get current year
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+</html>
