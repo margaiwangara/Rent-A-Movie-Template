@@ -16,26 +16,42 @@ body{
     }
 
     .carousel-image-one{
-    background: url("/img/antman-wasp-poster.jpg");;
-    background-size: cover;
+        background: url("/img/antman-wasp-poster.jpg");;
+        background-size: cover;
+        background-attachment: fixed;
     
     }
 
     .carousel-image-two{
-    background: url("/img/infinity-war-poster.jpg");
-    background-size: cover;
-    
+        background: url("/img/infinity-war-poster.jpg");
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .carousel-image-three{
-    background: url("/img/incredibles-2-poster.jpg");
-    background-size: cover;
-    
+        background: url("/img/incredibles-2-poster.jpg");
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
 
 #new-releases-section{
-
+    .dark-overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0 , 0.4);
+        border-radius: inherit;
+        cursor: pointer;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 
