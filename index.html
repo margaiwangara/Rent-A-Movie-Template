@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Bootstrap Theme</title>
 </head>
-<body>
+<body class="bg-light">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
             <a href="#" class="navbar-brand">Vidly</a>
@@ -97,8 +97,8 @@
         </div>
     </section>
 
-    <section class="new-releases-section mb-3">
-        <div class="container new-releases-inner">
+    <section id="new-releases-section" class="mx-3 p-3">
+        <div class="new-releases-inner">
             <div class="row">
                 <div class="col">
                     <h4 class="display-5 border-bottom py-2 my-3">
@@ -107,9 +107,82 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <div class="d-flex">
+                <div class="col-md-12">
+                    <div class="card-deck">
                         <div class="card">
+                            <a href="#">
+                                <img src="img/Ant-Man_and_the_Wasp_poster.jpg" alt="ant-man-wasp-poster" class="img-fluid rounded">
+                                <div class="dark-overlay rounded"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/infinity-war-poster-sm.jpg" alt="infinity-war-poster" class="img-fluid rounded">
+                                <div class="dark-overlay rounded"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/get-out-poster-sm.jpg" alt="get-out-poster" class="img-fluid rounded">
+                                <div class="dark-overlay rounded"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/guardians-2-sm.jpg" alt="guardians-2-poster" class="img-fluid rounded">
+                                <div class="dark-overlay rounded"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/incredibles-2-poster-sm.jpg" alt="incredibles-2-poster" class="img-fluid rounded">
+                                <div class="dark-overlay rounded"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/black-panther-sm.jpg" alt="black-panther-poster" class="img-fluid rounded">
+                                <div class="dark-overlay rounded"></div>
+                                <div class="card-img-overlay text-light">
+                                    <h6>Sample Text</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new-arrivals-section m-3 p-3">
+        <div class="new-arrivals-inner">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-5 border-bottom py-2 my-3">
+                        New Arrivals
+                    </h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-deck text-dark">
+                        <div class="card">
+                            <img src="img/Ant-Man_and_the_Wasp_poster.jpg" alt="ant-man-wasp-poster" class="img-fluid">
+                        </div>
+                        <div class="card">
+                            <img src="img/infinity-war-poster-sm.jpg" alt="infinity-war-poster" class="img-fluid">
+                        </div>
+                        <div class="card">
+                            <img src="img/get-out-poster-sm.jpg" alt="get-out-poster" class="img-fluid">
+                        </div>
+                        <div class="card">
+                            <img src="img/guardians-2-sm.jpg" alt="guardians-2-poster" class="img-fluid">
+                        </div>
+                        <div class="card">
+                            <img src="img/incredibles-2-poster-sm.jpg" alt="incredibles-2-poster" class="img-fluid">
+                        </div>
+                        <div class="card">
+                            <img src="img/black-panther-sm.jpg" alt="black-panther-poster" class="img-fluid">
                             
                         </div>
                     </div>
@@ -117,6 +190,11 @@
             </div>
         </div>
     </section>
+    <footer id="footer">
+        <div class="footer-inner py-3 bg-dark text-light text-center">
+            &copy; The Amber Group of Projects
+        </div>
+    </footer>
 
     <!--Scripts-->
     <!--Bootstrap and JQuery-->
